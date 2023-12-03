@@ -1,0 +1,46 @@
+.navbar-heading {
+    width: 100%;
+    background-color: transparent;
+    height: 30px;
+
+    .navbar-heading-container {
+        // max-width: 1140px;
+        background-color: rgba(255, 255, 255, 0.156);
+        height: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .text {
+            margin: 0;
+            width: 200px;
+            display: flex;
+            justify-content: space-around;
+
+            span {
+                font-size: 12px;
+                color: #ffffff;
+
+                &:hover {
+                    color: #faba00;
+                }
+            }
+        }
+
+        .icons-nav {
+            margin: 0;
+            width: 150px;
+            display: flex;
+            justify-content: space-around;
+
+            i {
+                font-size: 13.5px;
+                color: #ffffff;
+
+                &:hover {
+                    color: #faba00;
+                }
+            }
+        }
+    }
+}

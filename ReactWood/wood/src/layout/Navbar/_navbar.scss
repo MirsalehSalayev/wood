@@ -1,0 +1,100 @@
+.nav {
+    height: 70px;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    z-index: 10;
+
+
+    .navbar {
+
+        display: flex;
+        justify-content: space-around;
+        max-width: 100%;
+        align-items: center;
+
+
+        .logo {
+
+           
+
+            img {
+                width: 148px;
+                height: 40px;
+                user-select: none;
+            }
+        }
+    }
+
+    .navigation {
+        width: 330px;
+        margin: 0;
+
+        ul {
+            display: flex;
+            width: 330px;
+            justify-content: space-between;
+            margin: 0;
+
+            li {
+                margin: 0;
+
+                .link {
+                    color: #ffffff;
+                    font-size: 13px;
+                    font-weight: 700;
+                    user-select: none;
+                    opacity: 0.9;
+                    &:hover {
+                        color: #ffffff;
+                    }
+                }
+
+                .project-page {
+                    display: none;
+                }
+
+                .active {
+                    opacity: 1;
+                    font-size: 13px;
+                    font-weight: 700 !important;
+                    user-select: none;
+                }
+            }
+        }
+    }
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+}
+
+.colored-link {
+    color: #222222 !important;
+    font-weight: 500 !important;
+}
+.project-page-show{
+    display: block;
+    background-color: white;
+    height: 90px;
+    width: 200px;
+    position: absolute;
+    bottom: -90px;
+    .submenu-item{
+        height: 45px;
+        color: #222222;
+        font-size: 13px;
+        display: block;
+        font-weight: 500;
+        padding: 15px 20px;
+        border-top: 1px solid #eaeaea;
+        &:hover{
+            background-color: #faba00;
+            color: white;
+            border-top: none;
+        }
+    }
+}

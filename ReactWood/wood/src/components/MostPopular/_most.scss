@@ -1,0 +1,36 @@
+.mostPopular{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    margin-top:200px;
+    .mostPopularHead{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+         margin-bottom: 75px;
+        font-family: "Roboto", sans-serif;
+        h2{
+            font-size: 34px;
+        
+        }
+        p{
+            line-height: 24px;
+            font-size: 14px;
+             font-weight: normal;
+             color: #777777;
+        
+        }
+    }
+    .mostPopularHeadCArds{
+        display: grid;
+        grid-template-columns: auto auto auto;
+       
+    }
+}
+
+

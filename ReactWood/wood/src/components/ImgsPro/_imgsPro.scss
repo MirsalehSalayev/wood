@@ -1,0 +1,173 @@
+#project-images {
+    min-height: 395px;
+    display: flex;
+    margin-top: 100px;
+
+    .image1 {
+        width: 100%;
+        background-image: url("https://preview.colorlib.com/theme/woodrox/img/projects/projects-1.jpg");
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+
+        &:hover {
+            .images-text {
+                opacity: 1;
+                height: 235px;
+                background-color: #faba00;
+                padding: 36px;
+                position: absolute;
+                bottom: 0;
+
+                h1 {
+                    color: #222222;
+                    font-size: 18px;
+                    font-weight: 700;
+                    font-family: 'Heebo', sans-serif;
+                    line-height: 22px;
+                    padding-bottom: 8px;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: #222222;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+
+    .image2 {
+        width: 100%;
+
+        background-image: url("https://preview.colorlib.com/theme/woodrox/img/projects/projects-2.jpg");
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+
+        &:hover {
+            .images-text {
+                opacity: 1;
+                height: 235px;
+                background-color: #faba00;
+                padding: 36px;
+                position: absolute;
+                bottom: 0;
+
+                h1 {
+                    color: #222222;
+                    font-size: 18px;
+                    font-weight: 700;
+                    font-family: 'Heebo', sans-serif;
+                    line-height: 22px;
+                    padding-bottom: 8px;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: #222222;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+
+    .image3 {
+                width: 100%;
+
+        background-image: url("https://preview.colorlib.com/theme/woodrox/img/projects/projects-3.jpg");
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+
+        &:hover {
+            .images-text {
+                background-color: #faba00;
+                padding: 36px;
+                position: absolute;
+                bottom: 0;
+                opacity: 1;
+                height: 145px;
+
+                h1 {
+                    color: #222222;
+                    font-size: 18px;
+                    font-weight: 700;
+                    font-family: 'Heebo', sans-serif;
+                    line-height: 22px;
+                    padding-bottom: 8px;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: #222222;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+
+    .image4 {
+        width: 100%;
+
+        background-image: url("https://preview.colorlib.com/theme/woodrox/img/projects/projects-4.jpg");
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+
+        &:hover {
+            .images-text {
+                opacity: 1;
+                height: 235px;
+                background-color: #faba00;
+                padding: 36px;
+                position: absolute;
+                bottom: 0;
+
+                h1 {
+                    color: #222222;
+                    font-size: 18px;
+                    font-weight: 700;
+                    font-family: 'Heebo', sans-serif;
+                    line-height: 22px;
+                    padding-bottom: 8px;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: #222222;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+
+.images-text {
+    opacity: 0;
+    height: 0;
+    transition: all 400ms;
+    background-color: #faba00;
+    padding: 36px;
+    position: absolute;
+    bottom: 0;
+
+    h1 {
+        color: #222222;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Heebo', sans-serif;
+        line-height: 22px;
+        padding-bottom: 8px;
+    }
+
+    p {
+        font-size: 14px;
+        color: #222222;
+        line-height: 24px;
+    }
+}

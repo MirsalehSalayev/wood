@@ -1,0 +1,92 @@
+#details {
+    width: 100%;
+    padding: 120px 0;
+    .details-container {
+        max-width: 1170px;
+        .details-content {
+            display: flex;
+            gap: 140px;
+            .details-image {
+                img {
+                    max-width: 560px;
+                    height: 470px;
+                }
+            }
+            
+            .details-text {
+               display: flex;
+               flex-direction: column;
+               gap: 20px;
+                h1 {
+                    margin: 0;
+                    font-size: 21px;
+                    font-weight: 700;
+                    line-height: 25px;
+                    color: #222222;
+                    font-family: 'Heebo', sans-serif;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: #777;
+                    line-height: 24px;
+                }
+
+                .details-rating {
+                    width: 170px;
+                    margin: 0;
+
+                    p {
+                        font-size: 14px;
+                        color: #000;
+                        font-weight: 700;
+                        line-height: 24px;
+                        width: 170px;
+                        margin: 0;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .stars {
+                            color: #777;
+                            font-weight: 400;
+                            margin: 0;
+
+                            i {
+                                color: #f1cd09;
+                            }
+                        }
+                    }
+
+                    p {
+                        font-size: 14px;
+                        color: #000;
+                        font-weight: 700;
+                        line-height: 24px;
+                        margin: 0;
+                        width: 170px;
+                        display: flex;
+                        justify-content: space-between;
+
+                        span {
+                            margin: 0;
+                            color: #777;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .details-description {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        p {
+            font-size: 14px;
+            color: #777;
+            line-height: 24px;
+        }
+    }
+}

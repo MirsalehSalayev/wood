@@ -1,0 +1,30 @@
+.mostPopularCard{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: start;
+    gap: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+     img{
+        max-width: 500px ;
+        max-height: 200px;
+    
+}
+}
+.mostPopularCard:hover h5{
+color: #faba00;
+transition: all 1s ease-out 0s;
+
+}
+.mostPopularCardText{
+    padding-top: 20px;
+    width: 80%;
+}
+.mostPopularCardText p{
+ line-height: 24px;
+    font-size: 14px; 
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #777777;
+}
